@@ -1,0 +1,23 @@
+# Rust / Cargo
+target/
+**/target/
+**/*.rs.bk
+
+# JetBrains RustRover
+.idea/
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Logs / Temporary Files
+*.log
+*.tmp
+*.temp
